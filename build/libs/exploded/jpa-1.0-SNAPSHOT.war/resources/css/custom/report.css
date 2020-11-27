@@ -1,0 +1,28 @@
+ul.navigate:first-child {
+    padding-left: 0px;
+}
+ul.navigate li {
+    list-style: none;
+    margin: 5px 0;
+}
+ul.navigate li.plus:before {
+    font-family: 'FontAwesome';
+    content: '\f067';
+    margin:0 2px 5px -16px;
+    color: #f00;
+}
+ul.navigate li.minus:before {
+    font-family: 'FontAwesome';
+    content: '\f068';
+    margin:0 2px 5px -16px;
+    color: #f00;
+}
+ul.navigate li a {
+    font-size: 14px;
+}
+a {
+    outline: 0;
+}
+a.toggle-menu {
+    text-decoration: none;
+}

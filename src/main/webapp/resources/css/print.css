@@ -1,0 +1,17 @@
+@media print {
+    @page { margin: 0; }
+    body * {
+    visibility: hidden;
+    }
+    #table-detail, #table-detail * {
+    visibility: visible;
+    margin-top: 0;
+    }
+    #table-detail {
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
+    .pagebreak { page-break-after: always; }
+}
+

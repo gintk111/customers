@@ -1,0 +1,20 @@
+.dd-handle:hover{
+    background: none !important;
+}
+.dd-handle{
+    background: none !important;
+    border:none !important;
+}
+.nav-tabs > li > a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.nav-tabs{
+    border-bottom: 0px !important;
+}
+/*.label-form text-box-qrcode{*/
+    /*margin-top: 15px !important;*/
+/*}*/
+
+
